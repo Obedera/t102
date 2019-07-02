@@ -1,0 +1,91 @@
+body{
+    margin: 0;  
+}
+.botao{
+    background-color: coral;
+}
+.botao:hover{
+    background-color: gold;
+    font-size: 25px;
+}
+.banner{
+    background-image: url('assets/img/fundo.jpg');
+    background-size: cover;
+    height: 450px;
+}
+.banner h1, h4{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: tomato;
+}
+.bannercontato{
+    display: flex;
+    flex-direction: column;
+}
+.bannercontato a{
+    color: black;
+    text-decoration: none;
+}
+.bannerfooter img{
+    height: 50px;
+    margin-left: 30px;
+}
+.bannerfooter{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.cadastro{
+    background-color:goldenrod;
+    display: flex;
+    justify-content: center;
+}
+.cadastro:hover{
+    background-color: salmon;
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+h1{
+    font-size: 40pt;
+    margin: 0;
+    padding: 40px;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 7px;
+    padding: 3px;
+}
+
+nav{
+    align-items: center;
+    background-color: tomato;
+    display: flex;
+    height: 50px;
+    justify-content: space-around; /*espacamento*/
+}
+/* o "a" dentro da "nav" */
+nav a{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: gold;
+    transition: 3s;
+}
+::placeholder{
+    color: blue;
+    font-size: 10pt;
+}
